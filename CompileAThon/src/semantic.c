@@ -1,5 +1,4 @@
 #include "semantic.h"
-#include "parser.h"
 
 MatrixIR perform_semantic_analysis(ParsedInfo pinfo) {
     MatrixIR ir;

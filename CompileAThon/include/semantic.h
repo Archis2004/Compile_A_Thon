@@ -6,9 +6,9 @@
 typedef struct {
     int rows_A;
     int cols_A;
-    int cols_B; 
+    int cols_B;
 } MatrixIR;
 
 MatrixIR perform_semantic_analysis(ParsedInfo pinfo);
 
-#endif 
+#endif
