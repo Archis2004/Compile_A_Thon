@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -Iinclude
+CFLAGS = -Wall -Wextra -std=c99 -Iinclude -fopenmp  
 
 SRCS = src/main.c src/parser.c src/semantic.c src/optimization.c src/memory.c src/codegen.c src/instructions.c
 OBJS = $(SRCS:.c=.o)
